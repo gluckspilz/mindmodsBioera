@@ -1,0 +1,35 @@
+[PropertyInfo]
+app,bioera.Main,false,false, , ,false,<default>
+configFolder,java.io.File,false,false, , ,true,<default>
+configurationFile,java.io.File,false,false, , ,true,<default>
+debug,boolean,false,false, , ,false,<default>
+designFolder,java.io.File,false,false, , ,true,<default>
+designFrame,bioera.graph.designer.DesignFrame,false,false, , ,false,<default>
+designInfo,bioera.config.DesignInfo,false,false, , ,false,<default>
+designToSave,java.io.File,false,false, , ,false,<default>
+diagnostic,boolean,false,false, , ,false,<default>
+docFolder,java.io.File,false,false, , ,true,<default>
+errors,bioera.Log,false,false, , ,false,<default>
+events,bioera.Log,false,false, , ,false,<default>
+extDirectory,String,false,false, , ,true,<default>
+imagesFolder,java.io.File,false,false, , ,true,<default>
+implFolder,java.io.File,false,false, , ,true,<default>
+implFolderPath,String,false,false, , ,false,<default>
+isTool,boolean,false,false, , ,false,<default>
+logsFolder,java.io.File,false,false, , ,true,<default>
+logsFolderPath,String,false,false, , ,false,<default>
+mode,int,false,false, , ,false,<default>
+newDesign,java.io.File,false,false, , ,false,<default>
+newIsTool,boolean,false,false, , ,false,<default>
+processor,bioera.processing.Processor,false,false, , ,false,<default>
+rootFolder,java.io.File,false,false, , ,true,<default>
+runMode,int,false,false, , ,true,<default>
+running,boolean,false,false, , ,false,<default>
+runtimeFrame,bioera.graph.runtime.RuntimeFrame,false,false, , ,false,<default>
+toolsFolder,java.io.File,false,false, , ,true,<default>
+userInfo,bioera.config.UserInfo,false,false, , ,false,<default>
+[IconNames]
+
+
+
+
