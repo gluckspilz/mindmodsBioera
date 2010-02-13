@@ -1,0 +1,87 @@
+/* HorizontalBarChart.java v 1.0.9   11/6/04 7:15 PM
+ *
+ * BioEra - visual designer for biofeedback (http://www.bioera.net)
+ *
+ * Copyright (c) 2003-2004 Jarek Foltynski (http://www.foltynski.info)
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option)
+ * any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ */
+
+package bioera.graph.chart;
+
+import java.awt.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import bioera.*;
+import bioera.graph.designer.*;
+import bioera.processing.impl.*;
+import bioera.processing.*;
+
+/**
+ * Creation date: (2/25/2004 10:53:54 AM)
+ * @author: Jarek Foltynski
+ */
+public class HorizontalBarChart extends VerticalAxisChart {
+	public int barLeftMargin = 10, barRightMargin = 20;
+	public int barBottomMargin = 10, barTopMargin = 15;
+/**
+ * Insert the method's description here.
+ * Creation date: (7/12/2003 10:58:46 PM)
+ */
+public HorizontalBarChart() {
+	super();
+	leftMargin = 10;
+}
+/**
+ * 	Print on chart
+ */
+protected void drawInitVerticalAxis() {
+	initGraphics.drawLine(leftMargin, topMargin + barTopMargin, leftMargin, compHeight - downMargin);
+}
+/**
+ * 	Print on chart
+ */
+public void push(int value) {
+	if (!initialized)
+		return;
+	
+	int x1 = leftMargin + value;
+	if (x1 < leftMargin)
+		x1 = leftMargin;
+	if (x1 > leftMargin + chartWidth)
+		x1 = leftMargin + chartWidth;
+		
+	copyInitImage();
+	
+	gr.fillRect(
+		leftMargin, 
+		topMargin + barTopMargin, 
+		
+		x1 - leftMargin, 
+		(compHeight - downMargin - barBottomMargin) - (topMargin + barTopMargin));
+		
+}
+
+/**
+ * 	Print on chart
+ */
+public String doubleToString(double v) {
+	if (v < 1)
+		return super.doubleToString(v);
+
+	return "" + Math.round(v);
+}
+}

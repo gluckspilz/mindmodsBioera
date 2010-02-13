@@ -1,0 +1,18 @@
+[PropertyInfo]
+buffer,int[],false,false, , ,false,<default>
+debug,boolean,false,false, , ,false,<default>
+elementDescription,String,false,false, , ,true,<default>
+in,bioera.processing.BufferedScalarPipe,false,false, , ,false,<default>
+inputsCount,int,false,false, , ,true,<default>
+out,bioera.processing.ScalarPipeDistributor,false,false, , ,false,<default>
+out1,bioera.processing.ScalarPipeDistributor,false,false, , ,false,<default>
+outputsCount,int,false,false, , ,true,<default>
+packetCounter,int,false,false, , ,false,<default>
+packetsLost,int,false,false, , ,false,<default>
+processedPackets,int,false,false, , ,false,<default>
+type,int,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

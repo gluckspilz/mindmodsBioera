@@ -1,0 +1,26 @@
+[PropertyInfo]
+availPortItems,String[],false,false, , ,false,<default>
+charts,java.util.Vector,false,false, , ,false,<default>
+com1MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com2MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com3MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com4MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com5MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com6MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com7MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+com8MenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+debug,boolean,false,false, , ,false,<default>
+dialogs,java.util.Vector,false,false, , ,false,<default>
+frame,java.awt.Frame,false,false, , ,true,<default>
+framedCharts,boolean,false,false, , ,false,<default>
+isSwing,boolean,false,false, , ,false,<default>
+mouseEventHandler,bioera.graph.runtime.MouseEventHandler,false,false, , ,false,<default>
+panel,java.awt.Panel,false,false, , ,false,<default>
+runtimeEventHandler,bioera.graph.runtime.RuntimeEventHandler,false,false, , ,false,<default>
+runtimeTitle,String,false,false, , ,true,<default>
+startMenuItem,java.awt.MenuItem,false,false, , ,false,<default>
+[IconNames]
+
+
+
+
