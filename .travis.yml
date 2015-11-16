@@ -4,7 +4,7 @@ jdk:
   # maintainers to fix their pypy-dev package.
 # command to install dependencies
 # command to run tests
-
+install:
 mvn test
 
 branches:
