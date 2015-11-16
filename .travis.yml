@@ -1,11 +1,10 @@
 language: java 
 jdk:
   - openjdk7
-  # maintainers to fix their pypy-dev package.
 # command to install dependencies
 # command to run tests
 install:
-mvn test
+#mvn test
 
 branches:
     - master
